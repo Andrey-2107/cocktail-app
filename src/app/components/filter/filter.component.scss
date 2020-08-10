@@ -1,0 +1,38 @@
+.filter-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid #D0D0D0;
+
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    ul {
+      list-style: none;
+      margin-top: 31px;
+      padding: 0 40px;
+
+      .filter-list {
+        padding: 10px 0;
+        color: #818181;
+
+        .filter-checkbox {
+          margin-right: 11px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    padding: 10px 65px;
+    color: #fff;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    background-color: #4E4E4E;;
+    border-radius: 10px;
+
+  }
+}

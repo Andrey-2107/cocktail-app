@@ -1,0 +1,19 @@
+<div class="filter-wrap">
+  <form [formGroup]="form" *ngIf="filterList.length">
+    <ul>
+      <li class="filter-list" *ngFor="let filter of filterList">
+        <label [for]="filter.value" class="filter-name">
+          <input
+            [name]="filter.value"
+            type="checkbox"
+            [id]="filter.value"
+            class="filter-checkbox"
+            [formControlName]="filter.value"
+          >
+          {{ filter.uiName }}
+        </label>
+      </li>
+    </ul>
+    <button class="btn" (click)="filterCocktails()">apply</button>
+  </form>
+</div>

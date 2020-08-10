@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 50px 40px;
+
+  .title {
+    padding-bottom: 10px;
+    font-size: 24px;
+    color: #818181;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .cocktail-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1500px;
+    width: 100%;
+
+  }
+}

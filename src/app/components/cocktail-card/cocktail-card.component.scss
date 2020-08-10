@@ -1,0 +1,19 @@
+.card {
+  max-width: 230px;
+  width: 100%;
+  padding: 0 25px;
+  margin: 25px 0;
+  box-sizing: border-box;
+
+  img {
+    max-width: 230px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-text {
+    text-align: center;
+    font-size: 18px;
+  }
+
+}
